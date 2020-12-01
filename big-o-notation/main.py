@@ -1,3 +1,9 @@
+# Runtime O(n)
+def findIndex (arr, item):
+    for i in range(len(arr)):
+        if arr[i] == item:
+            return i
+
 # Space O(n)
 def square (arr):
     squared = []
